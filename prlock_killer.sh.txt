@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Get all .prlock files in the current directory and all subdirectories
+find . -name "*.prlock" -type f -exec rm -rf {} \;
